@@ -1,0 +1,110 @@
+.headername{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+/*This is for the header name*/
+.text-style-1{
+  color: #414242;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+  font-weight: 525;
+  letter-spacing: .5px;
+}
+/*This is for the name above the image*/
+.text-style-2{
+  color: #414242;
+}
+.header {
+  padding: 0;
+  text-align:  left;
+  background: #6c706f;
+  color: white;
+}
+
+.nav{ /*puts nav on the same line as the header*/
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.nav li{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  padding: 1rem;
+  display: inline;
+}
+/*My link syles*/
+a:link {color: white;}
+a:visited {color:	#C0C0C0;}
+a:hover {color: black}
+a:active {color: blue}
+
+img{/*Makes slightly rounded edges on the image */
+ border-radius: 8px;
+}
+main {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+main p{
+  color: rgb(224, 223, 221);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+/*Separates the article from the pictur more and extends he background color a little above and below it */
+article{
+  margin-top: 5%;
+  background-color: #1d232779;
+  padding: 3%;
+}
+
+body{
+  margin: 0;
+  min-width: 100%;
+  height: auto;
+  background: url(images/computer-background-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+/*I don't want the lines to extend all the way across the page*/
+hr{
+  width: 600px;
+}
+
+h1{
+  font-size: 40px;
+  font-family: 
+}
+
+h2{
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: rgb(211, 208, 204);
+}
+
+ol{
+  color: rgb(224, 223, 221);
+  text-align: center;
+  list-style-position: inside;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 40px
+}
+
+footer{
+  text-align: center;
+}
+
+
+

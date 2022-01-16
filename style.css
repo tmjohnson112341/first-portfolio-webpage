@@ -93,6 +93,14 @@ h2{
   color: rgb(211, 208, 204);
 }
 
+h4{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: rgb(224, 223, 221)
+}
+
 ol{
   color: rgb(224, 223, 221);
   text-align: center;
